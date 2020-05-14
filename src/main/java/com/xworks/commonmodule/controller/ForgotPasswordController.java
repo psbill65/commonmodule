@@ -39,7 +39,7 @@ public class ForgotPasswordController {
 		log.info("inside the controller");
 		if (result.hasFieldErrors("email")) {
 
-			log.info("inside the errors :");
+			log.info("Inside the errors :");
 			return "forgot";
 		}
 		log.info("outsside the errors: " + result.getErrorCount());
