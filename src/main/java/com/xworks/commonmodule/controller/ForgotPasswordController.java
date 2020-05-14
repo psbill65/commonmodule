@@ -24,7 +24,7 @@ public class ForgotPasswordController {
 	private ForgotPasswordService forgotPasswordService;
 
 	public ForgotPasswordController() {
-		log.info("invoked Controller :" + this.getClass().getSimpleName());
+		log.info("Invoked Controller :" + this.getClass().getSimpleName());
 	}
 
 	@RequestMapping("/forgot")
